@@ -1,0 +1,139 @@
+body {
+    margin: 0 auto;
+}
+.container {
+    margin: 10px auto;
+    font-family: "Muli";
+    width: 570px;
+    height: 320px;
+}
+.left-banner {
+    float: left;
+    background-color: #404b69;
+    text-align: center;
+    width: 170px;
+    height: 100%;
+    text-transform: uppercase;
+    position: relative;
+}
+.sale-info {
+    width: 140px;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    color: #f11e43;
+    margin: 5px 0;
+}
+.sale-info p {
+    margin: 5px 0;
+    color: #1b212f;
+    font-weight: bold;
+}
+.sale-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fffbe9;
+}
+.sale-flex > div:first-child {
+    font-size: 4.5em; 
+}
+.sale-off-flex {
+    display: flex;
+    flex-direction: column;
+}
+.sale-off-flex > div:first-child {
+    font-size: 3em;
+}
+.sale-off-flex div:nth-child(2) {
+    font-size: 1em;
+}
+.right-banner {
+    margin-left: 170px;
+    background-color: #f7f7eb;
+    width: 400px;
+    height: 100%;
+    position: relative;
+}
+.right-banner-info {
+    width: 380px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.close-btn {
+    float: right;
+    margin: 10px;
+    font-size: 1.5em;
+    color: grey;
+}
+.close-btn:hover {
+    color: #afadad;
+    cursor: pointer;
+}
+.right-banner-info > p:first-child {
+    text-transform: uppercase;
+    color: #949494e8;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.right-banner-info p:nth-child(2) {
+    color: #6fb942;
+    font-weight: 600;
+}
+input {
+    width: 300px;
+    height: 30px;
+    font: inherit;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #e8e8e8;
+    color: #afa7a7;
+    border: none;
+}
+input:hover {
+    background-color: #fdfdfd;
+}
+input:focus {
+    outline-width: 0;
+}
+.ten-off-button {
+    width: 300px;
+    height: 30px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    background-color: #ec1d1db0;
+    color: #e6e6e6e8;
+}
+.ten-off-button:hover {
+    background-color: #ff0f0f;
+    cursor: pointer;
+}
+.reject {
+    color: grey;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 2px grey dotted;
+    background-color: transparent;
+    position: relative;
+    top: 15px;
+}
+.reject:hover {
+    color: #c7c3c3;
+    cursor: pointer;
+}
+.right-banner-info p:nth-child(4) {
+    font-size: 0.7em;
+    color: #808080ba;
+    position: relative;
+    top: 25px;
+}
