@@ -1,0 +1,68 @@
+.custom-jumbotron {
+    padding: 2rem 2rem;
+    background-color: grey;
+}
+/* .strong-points {
+    padding-top: 2rem;
+} */
+.strong-points img {
+    width: 30%;
+    height: 30%;
+}
+.strong-points p{
+    margin: 0;
+    font-size: 20px;
+}
+.col-points-custom {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.points-helper {
+    display: flex;
+    align-items: center;
+}
+.gallery {
+    text-align: center;
+}
+.gallery h2 {
+    padding: 0.5rem 0;
+}
+.gallery img {
+    margin-bottom: 20px;
+}
+.wrapper {
+    height: 100%;
+    position: relative;
+}
+i {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 5px);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s;
+}
+.wrapper:hover i {
+    opacity: 1;
+    transition: 1s;
+}
+.gallery .com-sm-12 {
+    height: 250px;
+}
+.best-products {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.wrapper-product p {
+    margin-top: 20px;
+}
+.text-center {
+    display: flex;
+    align-items: center;
+ }
+ .wrapper-best-products {
+     height: 200px;
+ }
+
