@@ -1,10 +1,17 @@
-.custom-jumbotron {
-    padding: 2rem 2rem;
-    background-color: grey;
+.container {
+    background-color: #ebf1f7;
+    padding: 3rem 0;
 }
-/* .strong-points {
-    padding-top: 2rem;
-} */
+/* jumbotron */
+.jumbotron {
+    margin: 0;
+    background-color: #ebf1f7;
+}
+/* jumbotron FORM */
+form {
+    padding: 10px;
+}
+/* STRONG POINTS SECTION */
 .strong-points img {
     width: 30%;
     height: 30%;
@@ -22,6 +29,7 @@
     display: flex;
     align-items: center;
 }
+/* GALLERY SECTION */
 .gallery {
     text-align: center;
 }
@@ -34,6 +42,7 @@
 .wrapper {
     height: 100%;
     position: relative;
+    padding: 0;
 }
 i {
     position: absolute;
@@ -50,19 +59,76 @@ i {
 .gallery .com-sm-12 {
     height: 250px;
 }
-.best-products {
-    padding-top: 1rem;
+/* MAIN PIC */
+.chocolate-woman {
+    float: right;
+}
+.chocolate-woman-text {
+    display: flex;
+    align-items: center;
+}
+/* BEST PRODUCTS SECTION */
+.best-products .container {
     padding-bottom: 1rem;
     text-align: center;
 }
 .wrapper-product p {
     margin-top: 20px;
 }
-.text-center {
+.best-products .text-center {
     display: flex;
     align-items: center;
  }
  .wrapper-best-products {
      height: 200px;
  }
-
+/* FOOTER */
+.footer-main {
+    font-family: 'Cabin';
+    padding-top: 70px;
+}
+.footer h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    padding-bottom: 6px;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer h2::after {
+    display: block;
+    content: '';
+    width: 55px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer-main p {
+    font-size: 0.9rem;
+}
+.contact-footer-section {
+    margin-bottom: 15px;
+}
+.contact-footer-section p {
+    margin-bottom: 1px;
+}
+.footer a {
+    color: black;
+}
+.footer a:hover {
+    text-decoration: none;
+}
+.footer-contact {
+    position: relative;
+    right: 12px;
+}
+.copyright {
+    padding: 0;
+    margin: 0 auto;
+}
+.copyright p {
+    margin: 0;
+    padding: 20px 0;
+}
